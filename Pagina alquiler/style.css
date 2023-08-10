@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+
+h1{
+  text-align: center;
+  margin: 30px 0px;
+  font-family: sans-serif;
+}
+
+body{
+    background-color: #141C29;
+    padding-top: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titulo{
+  justify-content: center;  
+}
+img{
+    
+    display: flex;
+    height: 250px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px; 
+   
+}
+
+.allconteiner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.logo{
+    filter: invert(100%);
+    width: 45px;
+    height: auto;
+}
+#comentario 
+	{
+		background-color: #ffffff;
+
+		margin-bottom: 10px;
+        background:inherit;
+	}
+
+button{
+   margin-right: 150px;
+   background: inherit;
+}
+
+header{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200%;
+    height: 50px;
+    top:0;
+    position: fixed;
+    width: 25%;
+}
+
+
+.allconteiner>div{
+    box-shadow: 0px 0px 0px 0px #00000099;
+    background-color: #325a2a;
+    border-radius: 20px;
+}
+
+.allconteiner>div:hover{
+    background-color: #0b0f17;
+}
+
+.info{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+p{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+button{
+    background-color: #0b0f17;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  
+}
+button:hover{
+    background-color: #325a2a;
+}
+
+
+#contenedor-comentarios{
+    background-color: #fd0000;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+}
